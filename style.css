@@ -1,14 +1,21 @@
 /* Your code here */
 .business-name {
-  font-size: 60px;
+  font-size: 40px;
   color: #131212;
 }
-.card{ 
-  background-color:pink
+ 
+card-1 {
+
+  background-image: url(rose.jpeg);
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+
 
 }
-.img .card-1{
-  padding-left: 50px;
-  padding-right:50px;
-}
 
+
+
+
+
+    
