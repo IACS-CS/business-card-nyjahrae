@@ -1,21 +1,30 @@
 /* Your code here */
 .business-name {
+  border: solid;
   font-size: 40px;
   color: #131212;
 }
  
-card-1 {
-
-  background-image: url(rose.jpeg);
-  background-size: cover; 
-  background-position: center;
-  background-repeat: no-repeat;
-
-
+.card-1 {
+    background-image: url(BACKGROUND.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+  
+ul.left {
+    margin-top: 63px;
 }
 
 
+.card-2{
+  background-image: url(BACKGROUND.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+ {
+    margin: 64px;  
+  
+  }
+  
 
-
-
-    
+  
