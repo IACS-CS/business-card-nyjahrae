@@ -4,27 +4,33 @@
   font-size: 40px;
   color: #131212;
 }
- 
+
 .card-1 {
-    background-image: url(BACKGROUND.png);
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-  
-ul.left {
-    margin-top: 63px;
+  background-image: url(BACKGROUND.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+ul.left {
+  margin-top: 50px;
+}
 
-.card-2{
+.card-2 {
   background-image: url(BACKGROUND.png);
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
- {
-    margin: 64px;  
-  
-  }
-  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  
+.card-2 ul {
+padding-top:60px; /* Adjust bottom padding */
+}
+ 
+
+.flex-container {
+    display: flex; /* Enables flexbox */
+    justify-content: space-between; /* Spaces items evenly */
+    align-items: center; /* Centers items vertically */
+    padding: 20px;
+    background-color: #f0f0f0;
